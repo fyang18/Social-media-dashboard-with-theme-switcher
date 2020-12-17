@@ -8,80 +8,231 @@
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- Font / CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
 </head>
 <body>
 
-  Social Media Dashboard
-  Total Followers: 23,004
+  <!--Grid container-->
+  <div class="grid-container">
 
-  Dark Mode
+    <!--header item1-->
+    <div class="item1 header">
+      <div class="title">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div class="darkMode">
+        <p>Dark Mode</p>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+    <!--End header-->
 
+    <!--summary bar-->
+    <!--facebook item2-->
+    <div class="item2 fb Summary">
+      <div class="facebook">
+        <img src="images/icon-facebook.svg" alt="facebook icon">
+        <a href="#">@nathanf</a>
+      </div>
+      <h2>1987</h2>
+      <p>Followers</p>
+      <div class="upDown">
+        <img src="images/icon-up.svg" alt="arrow up">
+        <p>12 Today</p> 
+      </div>
+    </div>
+    <!--End facebook-->
+
+    <!--twitter item3-->
+    <div class="item3 tt Summary">
+      <div class="twitter">
+        <img src="images/icon-twitter.svg" alt="twitter icon">
+        <a href="#">@nathanf</a>
+      </div>
+      <h2>1044</h2>
+      <p>Followers</p>
+      <div class="upDown">
+        <img src="images/icon-up.svg" alt="arrow up">
+        <p>99 Today</p> 
+      </div> 
+    </div>
+    <!--End twitter-->
+
+    <!--instagram item4-->
+    <div class="item4 insta Summary">
+      <div class="instagram">
+        <img src="images/icon-instagram.svg" alt="instagram icon">
+        <a href="#">@realnathanf</a>
+      </div>
+      <h2>11k</h2>
+      <p>Followers</p>
+      <div class="upDown">
+        <img src="images/icon-up.svg" alt="arrow up">
+        <p>1099 Today</p> 
+      </div> 
+    </div>
+    <!--End instagram-->
+
+    <!--youtube item5-->
+    <div class="item5 youtube Summary">
+      <div class="instagram">
+        <img src="images/icon-youtube.svg" alt="youtube icon">
+        <a href="#">Nathan F.</a>
+      </div>
+      <h2>8239</h2>
+      <p>Subscribers</p>
+      <div class="upDown">
+        <img src="images/icon-down.svg" alt="arrow down">
+        <p>144 Today</p> 
+      </div> 
+    </div>
+    <!--End youtube-->
+
+    <!--H3 item6-->
+      <h3 class="item6">
+        Overview - Today
+      </h3>
+    <!--End H3 item6-->
+
+    <!-- page view item7-->
+      <div class="item7 pagesView overview">
+        <div class="viewUp">
+          <h4>Page Views</h4>
+          <img src="images/icon-facebook.svg" alt="icon-facebook">
+        </div>
+        <div class="ViewUp">
+          <p>87</p>
+          <div class="UpOrDown">
+            <img src="images/icon-up.svg" alt="icon-up">
+            <p>3%</p>
+          </div>
+        </div>
+      </div>
+    <!--End item7-->
+
+    <!--like FB item8-->
+    <div class="item8 likesFb overview">
+      <div class="viewUp">
+        <h4>Likes</h4>
+        <img src="images/icon-facebook.svg" alt="icon-facebook">
+      </div>
+      <div class="viewDown">
+        <p>52</p>
+        <div class="UpOrDown">
+          <img src="images/icon-down.svg" alt="icon-down">
+          <p>2%</p>
+        </div>
+      </div>
+    </div>
+    <!--End item8-->
+
+    <!--item9-->
+    <div class="item9 likesInsta overview">
+      <div class="viewUp">
+        <h4>Likes</h4>
+        <img src="images/icon-instagram.svg" alt="icon-instagram">
+      </div>
+      <div class="viewDown">
+        <p>5462</p>
+        <div class="UpOrDown">
+          <img src="images/icon-up.svg" alt="icon-up">
+          <p>2257%</p>
+        </div>
+      </div>
+    </div>
+    <!--End item9-->
+    
+    <!--item10-->
+    <div class="item10 profileViewsInsta overview">
+      <div class="viewUp">
+        <h4>Profile Views</h4>
+        <img src="images/icon-instagram.svg" alt="icon-instagram">
+      </div>
+      <div class="viewDown">
+        <p>52k</p>
+        <div class="UpOrDown">
+          <img src="images/icon-up.svg" alt="icon-up">
+          <p>1375%</p>
+        </div>
+      </div>
+    </div>
+    <!--End item10-->
+
+    <!--item11-->
+    <div class="item11 reTweets overview">
+      <div class="viewUp">
+        <h4>Retweets</h4>
+        <img src="images/icon-twitter.svg" alt="icon-twitter">
+      </div>
+      <div class="viewDown">
+        <p>117</p>
+        <div class="UpOrDown">
+          <img src="images/icon-up.svg" alt="icon-up">
+          <p>303%</p>
+        </div>
+      </div>
+    </div>
+    <!--End item11-->
+
+    <!--item12-->
+    <div class="item12 likeTwitter overview">
+      <div class="viewUp">
+        <h4>Likes</h4>
+        <img src="images/icon-twitter.svg" alt="icon-twitter">
+      </div>
+      <div class="viewDown">
+        <p>507</p>
+        <div class="UpOrDown">
+          <img src="images/icon-up.svg" alt="icon-up">
+          <p>553%</p>
+        </div>
+      </div>
+    </div>
+    <!--End item12-->
+
+    <!--item13-->
+    <div class="item13 likeYouTube overview">
+      <div class="viewUp">
+        <h4>Likes</h4>
+        <img src="images/icon-twitter.svg" alt="icon-twitter">
+      </div>
+      <div class="viewDown">
+        <p>107</p>
+        <div class="UpOrDown">
+          <img src="images/icon-up.svg" alt="icon-up">
+          <p>19%</p>
+        </div>
+      </div>
+    </div>
+    <!--End item13-->
+
+    <!--item14-->
+    <div class="item14 totalViews overview">
+      <div class="viewUp">
+        <h4>Total Views</h4>
+        <img src="images/icon-twitter.svg" alt="icon-twitter">
+      </div>
+      <div class="viewDown">
+        <p>1407</p>
+        <div class="UpOrDown">
+          <img src="images/icon-up.svg" alt="icon-up">
+          <p>12%</p>
+        </div>
+      </div>
+    </div>
+    <!--End item14-->
+  </div> 
+  <!--End GridContainer-->
   
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+<script src="app.js"></script>
 </body>
 </html>
