@@ -29,7 +29,7 @@
       <div class="darkMode">
         <p>Dark Mode</p>
         <label class="switch">
-          <input type="checkbox">
+          <input id="" type="checkbox" onchange="darkMode()">
           <span class="slider round"></span>
         </label>
       </div>
@@ -38,61 +38,61 @@
 
     <!--summary bar-->
     <!--facebook item2-->
-    <div class="item2 fb Summary">
-      <div class="facebook">
+    <div class="item2 fb summary">
+      <div class="facebook innerSummary">
         <img src="images/icon-facebook.svg" alt="facebook icon">
         <a href="#">@nathanf</a>
       </div>
       <h2>1987</h2>
-      <p>Followers</p>
+      <p class="letterSpacing">Followers</p>
       <div class="upDown">
         <img src="images/icon-up.svg" alt="arrow up">
-        <p>12 Today</p> 
+        <p class="greenP">12 Today</p> 
       </div>
     </div>
     <!--End facebook-->
 
     <!--twitter item3-->
-    <div class="item3 tt Summary">
-      <div class="twitter">
+    <div class="item3 tt summary">
+      <div class="twitter innerSummary">
         <img src="images/icon-twitter.svg" alt="twitter icon">
         <a href="#">@nathanf</a>
       </div>
       <h2>1044</h2>
-      <p>Followers</p>
+      <p class="letterSpacing">Followers</p>
       <div class="upDown">
         <img src="images/icon-up.svg" alt="arrow up">
-        <p>99 Today</p> 
+        <p class="greenP">99 Today</p> 
       </div> 
     </div>
     <!--End twitter-->
 
     <!--instagram item4-->
-    <div class="item4 insta Summary">
-      <div class="instagram">
+    <div class="item4 insta summary">
+      <div class="instagram innerSummary">
         <img src="images/icon-instagram.svg" alt="instagram icon">
         <a href="#">@realnathanf</a>
       </div>
       <h2>11k</h2>
-      <p>Followers</p>
+      <p class="letterSpacing">Followers</p>
       <div class="upDown">
         <img src="images/icon-up.svg" alt="arrow up">
-        <p>1099 Today</p> 
+        <p class="greenP">1099 Today</p> 
       </div> 
     </div>
     <!--End instagram-->
 
     <!--youtube item5-->
-    <div class="item5 youtube Summary">
-      <div class="instagram">
+    <div class="item5 youtube summary">
+      <div class="youtube innerSummary">
         <img src="images/icon-youtube.svg" alt="youtube icon">
         <a href="#">Nathan F.</a>
       </div>
       <h2>8239</h2>
-      <p>Subscribers</p>
+      <p class="letterSpacing">Subscribers</p>
       <div class="upDown">
         <img src="images/icon-down.svg" alt="arrow down">
-        <p>144 Today</p> 
+        <p class="redP">144 Today</p> 
       </div> 
     </div>
     <!--End youtube-->
@@ -109,11 +109,11 @@
           <h4>Page Views</h4>
           <img src="images/icon-facebook.svg" alt="icon-facebook">
         </div>
-        <div class="ViewUp">
-          <p>87</p>
+        <div class="viewDown">
+          <p class="viewDownP">87</p>
           <div class="UpOrDown">
             <img src="images/icon-up.svg" alt="icon-up">
-            <p>3%</p>
+            <p class="greenP">3%</p>
           </div>
         </div>
       </div>
@@ -126,10 +126,10 @@
         <img src="images/icon-facebook.svg" alt="icon-facebook">
       </div>
       <div class="viewDown">
-        <p>52</p>
+        <p class="viewDownP">52</p>
         <div class="UpOrDown">
           <img src="images/icon-down.svg" alt="icon-down">
-          <p>2%</p>
+          <p class="redP">2%</p>
         </div>
       </div>
     </div>
@@ -142,10 +142,10 @@
         <img src="images/icon-instagram.svg" alt="icon-instagram">
       </div>
       <div class="viewDown">
-        <p>5462</p>
+        <p class="viewDownP">5462</p>
         <div class="UpOrDown">
           <img src="images/icon-up.svg" alt="icon-up">
-          <p>2257%</p>
+          <p class="greenP">2257%</p>
         </div>
       </div>
     </div>
@@ -158,10 +158,10 @@
         <img src="images/icon-instagram.svg" alt="icon-instagram">
       </div>
       <div class="viewDown">
-        <p>52k</p>
+        <p class="viewDownP">52k</p>
         <div class="UpOrDown">
           <img src="images/icon-up.svg" alt="icon-up">
-          <p>1375%</p>
+          <p class="greenP">1375%</p>
         </div>
       </div>
     </div>
@@ -174,10 +174,10 @@
         <img src="images/icon-twitter.svg" alt="icon-twitter">
       </div>
       <div class="viewDown">
-        <p>117</p>
+        <p class="viewDownP">117</p>
         <div class="UpOrDown">
           <img src="images/icon-up.svg" alt="icon-up">
-          <p>303%</p>
+          <p class="greenP">303%</p>
         </div>
       </div>
     </div>
@@ -190,10 +190,10 @@
         <img src="images/icon-twitter.svg" alt="icon-twitter">
       </div>
       <div class="viewDown">
-        <p>507</p>
+        <p class="viewDownP">507</p>
         <div class="UpOrDown">
           <img src="images/icon-up.svg" alt="icon-up">
-          <p>553%</p>
+          <p class="greenP">553%</p>
         </div>
       </div>
     </div>
@@ -203,13 +203,13 @@
     <div class="item13 likeYouTube overview">
       <div class="viewUp">
         <h4>Likes</h4>
-        <img src="images/icon-twitter.svg" alt="icon-twitter">
+        <img src="images/icon-youtube.svg" alt="icon-twitter">
       </div>
       <div class="viewDown">
-        <p>107</p>
+        <p class="viewDownP">107</p>
         <div class="UpOrDown">
-          <img src="images/icon-up.svg" alt="icon-up">
-          <p>19%</p>
+          <img src="images/icon-down.svg" alt="icon-down">
+          <p class="redP">19%</p>
         </div>
       </div>
     </div>
@@ -219,20 +219,20 @@
     <div class="item14 totalViews overview">
       <div class="viewUp">
         <h4>Total Views</h4>
-        <img src="images/icon-twitter.svg" alt="icon-twitter">
+        <img src="images/icon-youtube.svg" alt="icon-twitter">
       </div>
       <div class="viewDown">
-        <p>1407</p>
+        <p class="viewDownP">1407</p>
         <div class="UpOrDown">
-          <img src="images/icon-up.svg" alt="icon-up">
-          <p>12%</p>
+          <img src="images/icon-down.svg" alt="icon-down">
+          <p class="redP">12%</p>
         </div>
       </div>
     </div>
     <!--End item14-->
   </div> 
   <!--End GridContainer-->
-  
+
 <script src="app.js"></script>
 </body>
 </html>
